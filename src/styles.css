@@ -1,0 +1,147 @@
+body {
+  font-family: "ABeeZee", sans-serif;
+}
+#container {
+  margin: 0 auto;
+}
+.card {
+  padding: 25px 50px;
+  border-radius: 40px;
+  border-color: #3737ee;
+  margin: 50px 80px 50px 80px;
+  background: #fff;
+  max-width: 800px;
+}
+
+::placeholder {
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  opacity: 0.9;
+  color: #bdbdbd;
+}
+:placeholder-shown {
+  background: #fff;
+  border-radius: 30px;
+
+  border: 1px solid #f0ecfc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+  padding: 7px 40px;
+  margin-right: 40px;
+  width: 450px;
+}
+
+#submit {
+  color: #3737ee;
+  font-weight: 900px;
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  padding: 7px 15px;
+  margin: 10px 30px 10px 30px;
+  background: #fff;
+  border-radius: 30px;
+
+  border: 1px solid #f0ecfc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#submit:hover {
+  background: #3737ee;
+  color: #fff;
+}
+#current {
+  color: #1ce0cd;
+  font-weight: 900px;
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  padding: 7px 15px;
+
+  background: #fff;
+  border-radius: 30px;
+  margin-left: 522px;
+  border: 1px solid #f0ecfc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#current:hover {
+  background: #1ce0cd;
+  color: #fff;
+}
+p {
+  font-size: 13px;
+  color: #2e2e2e;
+}
+.current-city {
+  font-size: 40px;
+  font-family: "Signika", sans-serif;
+  color: #3737ee;
+}
+.temp-number {
+  font-size: 40px;
+  font-family: "Signika", sans-serif;
+  color: #3737ee;
+}
+a {
+  font-size: 17px;
+  text-decoration: none;
+}
+.cloudSun-icon {
+  font-size: 80px;
+
+  background: #a9aeb8;
+  background: -webkit-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  background: -moz-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  background: linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  position: relative;
+  top: 15px;
+  right: 30px;
+}
+.icon-condition {
+  font-size: 13px;
+  color: #2e2e2e;
+  padding-top: 0px;
+  margin-top: 0;
+}
+.conditions {
+  font-size: 12px;
+  color: #2e2e2e;
+  position: relative;
+  top: 15px;
+  left: 40px;
+}
+.friday,
+.saturday,
+.sunday,
+.monday,
+.tuesday {
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  color: #1ce0cd;
+  margin-left: 20px;
+}
+.sun-icon {
+  font-size: 20px;
+  color: #ff5722;
+}
+.sunCloud-icon {
+  font-size: 20px;
+  background: #a9aeb8;
+  background: -webkit-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  background: -moz-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  background: linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.cloud-icon {
+  font-size: 20px;
+  color: #b4caf5;
+}
+.temperature {
+  font-size: 12px;
+  color: #2e2e2e;
+}
