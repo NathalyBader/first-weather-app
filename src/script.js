@@ -72,6 +72,9 @@ function showCityWeather(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  document.querySelector("#date").innerHTML = formatDate(
+    response.data.dt * 1000
+  );
 }
 function search(city) {
   let apiKey = "7c28ceb5d17087c814fc111c6aad10be";
