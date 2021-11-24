@@ -28,8 +28,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-body">
+      <div class="app-wrapper">
+        <div class="app-body">
           <form class="search-city" id="submit-city">
             <input
               type="search"
@@ -41,7 +41,9 @@
 
             
            <input type="submit" name="submit" value="Search" id="submit" />
+           
            <input type="submit" name="current" value="Current" id="current" />
+           
           </form>
           <br />
           <p></p>
@@ -110,11 +112,13 @@
             </div>
           </div>
         </div>
+        <small class= "source" id= source>
+    <a href= "https://github.com/NathalyBader/first-weather-app"> Open-source code </a> By Nathaly Bader
+        </small>
+
       </div>
     </div>
-    <div class= "source" id= source>
-    <a href= "https://github.com/NathalyBader/first-weather-app"> Open-source code </a> By Nathaly Bader
-    </div>
+   
     <script src="src/script.js"></script>
   </body>
 </html>
