@@ -30,22 +30,29 @@
     <div class="container">
       <div class="app-wrapper">
         <div class="app-body">
-          <form class="search-city" id="submit-city">
+         <form class="search-city" id="submit-city">
+            <div class= "row">
+              <div class="col-9">
             <input
               type="search"
+              
               placeholder="e.g.: Sydney , Australia"
+              class= "form-control"
               autofocus="on"
               autocomplete="off"
               id= "search-text-input"
             />
+            </div>
 
-            
+            <div class=" col-3">
            <input type="submit" name="submit" value="Search" id="submit" />
-           
+           </div>
+           <div class="col-12">
            <input type="submit" name="current" value="Current" id="current" />
-           
+           </div>
+           </div>
           </form>
-          <br />
+          
           <p>Last updated: <span id="date"></span></p>
           <div class= icon-condition id= "description"> Partly cloudy </div>
           <div class="row">

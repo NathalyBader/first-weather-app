@@ -27,7 +27,7 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 
   padding: 7px 40px;
-  margin-right: 40px;
+  margin: 20px 10px;
   width: 450px;
 }
 
@@ -37,7 +37,7 @@ body {
   font-family: "Signika", sans-serif;
   font-size: 17px;
   padding: 7px 15px;
-  margin: 10px 30px 10px 30px;
+  margin-top: 20px;
   background: #fff;
   border-radius: 30px;
 
@@ -57,7 +57,9 @@ body {
 
   background: #fff;
   border-radius: 30px;
-  margin-left: 522px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 5px;
   border: 1px solid #f0ecfc;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
