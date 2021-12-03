@@ -58,7 +58,7 @@ body {
   background: #fff;
   border-radius: 30px;
   float: right;
-  margin-right: 60px;
+  margin-right: 55px;
   margin-top: 5px;
   border: 1px solid #f0ecfc;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -68,8 +68,9 @@ body {
   color: #fff;
 }
 p {
-  font-size: 13px;
-  color: #2e2e2e;
+  font-size: 15px;
+  color: #000;
+  opacity: 0.6;
 }
 .current-city {
   font-size: 40px;
@@ -82,75 +83,50 @@ p {
   color: #3737ee;
 }
 a {
-  font-size: 17px;
+  font-size: 16px;
   text-decoration: none;
 }
-.cloudSun-icon {
-  font-size: 80px;
 
-  background: #a9aeb8;
-  background: -webkit-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  background: -moz-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  background: linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-
-  position: relative;
-  top: 15px;
-  right: 30px;
-}
 .icon-condition {
-  font-size: 13px;
-  color: #2e2e2e;
+  font-size: 19px;
+  color: #1ce0cd;
+
   padding-top: 0px;
   margin-top: 0;
 }
 .conditions {
-  font-size: 12px;
-  color: #2e2e2e;
+  font-size: 15px;
+  color: #000;
+  opacity: 0.6;
   position: relative;
   top: 15px;
   left: 40px;
 }
-.friday,
-.saturday,
-.sunday,
-.monday,
-.tuesday {
-  font-family: "Signika", sans-serif;
-  font-size: 17px;
-  color: #1ce0cd;
-  margin-left: 20px;
-}
-.sun-icon {
-  font-size: 20px;
-  color: #ff5722;
-}
-.sunCloud-icon {
-  font-size: 20px;
-  background: #a9aeb8;
-  background: -webkit-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  background: -moz-linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  background: linear-gradient(to top left, #b4caf5 54%, #ff5722 48%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-.cloud-icon {
-  font-size: 20px;
-  color: #b4caf5;
-}
-.temperature {
-  font-size: 12px;
-  color: #2e2e2e;
-}
+
 span.temp-units .active {
-  color: #2e2e2e;
+  color: #000;
   cursor: default;
 }
-span.temp-units .active {
+span.temp-units .active:hover {
   text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #1ce0cd;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.4;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+  color: #000;
 }
