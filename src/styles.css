@@ -48,25 +48,8 @@ body {
   background: #3737ee;
   color: #fff;
 }
-#current {
-  color: #1ce0cd;
-  font-weight: 900px;
-  font-family: "Signika", sans-serif;
-  font-size: 17px;
-  padding: 7px 15px;
 
-  background: #fff;
-  border-radius: 30px;
-  float: right;
-  margin-right: 55px;
-  margin-top: 5px;
-  border: 1px solid #f0ecfc;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-#current:hover {
-  background: #1ce0cd;
-  color: #fff;
-}
+
 p {
   font-size: 15px;
   color: #000;
@@ -82,10 +65,19 @@ p {
   font-family: "Signika", sans-serif;
   color: #3737ee;
 }
-a {
-  font-size: 16px;
-  text-decoration: none;
+.temp-units {
+  
+  font-family: "Signika", sans-serif;
+  color: #3737ee;
+  position: relative;
+  font-size: 18px;
+  top: -15px;
 }
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
 
 .icon-condition {
   font-size: 19px;
@@ -103,13 +95,7 @@ a {
   left: 40px;
 }
 
-span.temp-units .active {
-  color: #000;
-  cursor: default;
-}
-span.temp-units .active:hover {
-  text-decoration: none;
-}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
