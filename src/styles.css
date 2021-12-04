@@ -14,7 +14,7 @@ body {
 }
 
 ::placeholder {
-  font-family: "Signika", sans-serif;
+  font-family: "ABeeZee", sans-serif;
   font-size: 17px;
   opacity: 0.9;
   color: #bdbdbd;
@@ -51,9 +51,9 @@ body {
 
 
 p {
-  font-size: 15px;
-  color: #000;
-  opacity: 0.6;
+  font-size: 17px;
+  color:#1ce0cd;
+  
 }
 .current-city {
   font-size: 40px;
@@ -87,9 +87,10 @@ a {
   margin-top: 0;
 }
 .conditions {
-  font-size: 15px;
-  color: #000;
-  opacity: 0.6;
+  font-family: "Signika", sans-serif;
+  font-size: 17px;
+  color: #3737ee;
+  
   position: relative;
   top: 15px;
   left: 40px;

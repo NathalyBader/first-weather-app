@@ -99,16 +99,6 @@ function search(city) {
 }
 
 
-function searchCity(event) {
-  event.preventDefault();
-  let searchInput = document.querySelector("#search-text-input");
-  let currentCity = document.querySelector("#current-city");
-
-  currentCity.innerHTML = `${searchInput.value}`;
-}
-
-let form = document.querySelector("#submit-city");
-form.addEventListener("submit", searchCity);
 
 
 
@@ -119,22 +109,11 @@ function searchCities(event) {
   search(city);
 }
 
-function getPosition(position) {
-  let apiKey = "7c28ceb5d17087c814fc111c6aad10be";
-  let latitude = position.coords.latitude;
-  let longitude = position.coords.longitude;
-  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
-  axios.get(url).then(showCityWeather);
-}
-function clickCurrentButton(event) {
-  event.preventDefault();
-  navigator.geolocation.getCurrentPosition(getPosition);
-}
+
 
 let searchForm = document.querySelector("#submit-city");
 searchForm.addEventListener("submit", searchCities);
 
-let currentButton = document.querySelector("#current");
-currentButton.addEventListener("click", clickCurrentButton);
+
 
 search("munich");
